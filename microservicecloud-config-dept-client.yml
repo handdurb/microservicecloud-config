@@ -9,7 +9,7 @@ server:
 spring:
    profies: dev #开发环境
    application:
-    name: microservicecloud-config-client 
+    name: microservicecloud-config-dept-client 
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
@@ -52,7 +52,7 @@ server:
 spring:
    profies: test #测试环境
    application:
-    name: microservicecloud-config-client 
+    name: microservicecloud-config-dept-client
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
