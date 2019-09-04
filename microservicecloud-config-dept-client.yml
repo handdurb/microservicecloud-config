@@ -50,13 +50,13 @@ server:
     port: 8001
     
 spring:
-   profies: test #开发环境
+   profies: test #测试环境
    application:
     name: microservicecloud-config-client 
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
-    url: jdbc:mysql://localhost:3306/cloudDB01?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true              # 数据库名称
+    url: jdbc:mysql://localhost:3306/cloudDB02?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true              # 数据库名称
     username: root
     password: 123456
     dbcp2:
